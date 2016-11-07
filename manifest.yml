@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: wkpy
+  host: wkpy
+  disk_quota: 1024M
+  services:
+  - db_mysql
+  - performance-monitoring-auto
